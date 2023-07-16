@@ -1,0 +1,31 @@
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* background-image: url(../images/background.jpeg);
+  background-size: auto; */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(255,0,35,1) 100%);
+}
+.hero-card {
+  background-color: aliceblue;
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  margin-top: 2%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Shadows Into Light', cursive;
+}
+.hero-title {
+  align-self: center;
+  font-weight: bolder;
+  font-size: 32px;
+}
+.hero-img {
+  width: 390px;
+  height: auto;
+}
